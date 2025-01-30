@@ -417,3 +417,46 @@ fieldset legend {
   border: none;
 }
 /* Contact Page Style End */
+/* Base styles for all devices */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .grid-2 {
+      display: flex;
+      flex-direction: column;
+  }
+  .grid-3 {
+      display: flex;
+      flex-direction: column;
+  }
+  .navbar-menu {
+      flex-direction: column;
+      align-items: center;
+  }
+  .food-menu-box {
+      width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-menu {
+      flex-direction: column;
+      align-items: center;
+  }
+  .food-menu-box {
+      margin-bottom: 20px;
+  }
+  .btn-primary {
+      padding: 10px 15px;
+  }
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
