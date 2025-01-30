@@ -233,6 +233,11 @@ fieldset legend {
   transition: 0.5s;
   border-radius: 0px 5px 5px 0px;
 }
+@media (max-width: 768px) {
+  .food-search {
+      margin-top: 150px; /* Adjust this value as needed */
+  }
+}
 /* Food Search Section Style End */
 
 /* Categories Section Style Start */
